@@ -21,7 +21,7 @@ check_dependencies() {
 
 choose_ui_mode() {
   clear
-  figlet "JAM TOOL" | lolcat
+  figlet "JAM TOOL by TRHACKNON" | lolcat
   echo -e "\nBienvenue dans JamTool, ton brouilleur mobile" | lolcat
   echo -e "\nChoisis ton style de menu :\n" | lolcat
 
@@ -38,7 +38,7 @@ choose_ui_mode() {
 
 run_dialog_menu() {
   while true; do
-    CHOICE=$(dialog --clear --backtitle "JamTool - Mobile Jammer" \
+    CHOICE=$(dialog --clear --backtitle "JamTool by TRHACKNON- Mobile Jammer" \
       --title "Sélection de module" \
       --menu "Choisissez une technologie à brouiller :" 15 50 5 \
       1 "Wi-Fi Jammer" \
@@ -62,7 +62,7 @@ run_fzf_menu() {
   while true; do
     clear
     figlet -f slant "JAM TOOL" | lolcat
-    echo -e "\n> Mobile Network Jammer | Sélectionne ton arme\n" | lolcat
+    echo -e "\n> Mobile Network Jammer by TRHACKNON | Sélectionne ton arme\n" | lolcat
 
     choice=$(printf "%s\n" \
       "Wi-Fi Jammer : Détection + déauth" \
