@@ -58,8 +58,6 @@
 
 ---
 
-![Logo HackRF CLI](https://h.top4top.io/p_3400wd9lq0.jpg)
-
 JamTool est un outil multifonction permettant de brouiller diverses technologies mobiles, telles que le Wi-Fi, Bluetooth et GSM. Il propose une interface utilisateur simple mais flexible avec deux modes de menu : un mode classique basé sur `dialog` et un mode plus stylisé utilisant `fzf`. 
 
 ## Fonctionnalités
