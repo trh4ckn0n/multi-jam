@@ -30,7 +30,9 @@ sudo apt install python3 dialog fzf figlet lolcat
 
 Pour installer la dépendance Python `pybluez` :
 
-pip install pybluez
+```bash
+pip install -r requirements.txt
+```
 
 ## Installation
 
@@ -48,7 +50,7 @@ pip install pybluez
 
 Une fois les dépendances installées, vous pouvez lancer l'outil en exécutant le script `jammer.sh` :
 
-```
+```bash
 ./jammer.sh
 ```
 
