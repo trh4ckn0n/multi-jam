@@ -2,6 +2,7 @@ python3
 dialog
 aircrack-ng
 bluez
+pybluez
 rfkill
 rtl-sdr
 gr-gsm
