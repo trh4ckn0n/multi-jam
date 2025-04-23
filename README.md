@@ -58,33 +58,6 @@
 
 ---
 
-<details>
-  <summary>🕶️ <strong>Underground Tech Stack</strong> | 👤 Powered by <code>trhacknon</code> ⚡</summary>
-
-  <br>
-
-  ### 🛠️ Core Technologies  
-  ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
-  ![Bash](https://img.shields.io/badge/Shell-Bash-121011?logo=gnu-bash&logoColor=white)
-  ![GNU Radio](https://img.shields.io/badge/GNU_Radio-SDR-red?logo=gnuradio)
-  ![gr-gsm](https://img.shields.io/badge/gr--gsm-GSM_Analysis-orange)
-  ![HackRF](https://img.shields.io/badge/HackRF-One-6e40c9?logo=hackaday)
-
-  ### 🎯 Special Ops  
-  ![HackRF Jam](https://img.shields.io/badge/HackRF-Jam_by_TRHACKNON-purple?logo=hackaday)
-  ![Made with FZF](https://img.shields.io/badge/Made%20with-fzf-yellow?logo=linux)
-  ![CLI Tool](https://img.shields.io/badge/Interface-CLI-lightgrey?logo=terminal)
-
-  ### 🧪 Field Tested  
-  ![Debian Based](https://img.shields.io/badge/Compatible-Debian/Ubuntu-green?logo=debian)
-  ![Tested on Kali](https://img.shields.io/badge/Tested_on-Kali_Linux-blue?logo=kalilinux)
-
-  <br>
-  > <i>“We are hackers. We are legion. We do not forget the tech stack.”</i>
-
-</details>
-
-
 ![Logo HackRF CLI](https://h.top4top.io/p_3400wd9lq0.jpg)
 
 JamTool est un outil multifonction permettant de brouiller diverses technologies mobiles, telles que le Wi-Fi, Bluetooth et GSM. Il propose une interface utilisateur simple mais flexible avec deux modes de menu : un mode classique basé sur `dialog` et un mode plus stylisé utilisant `fzf`. 
