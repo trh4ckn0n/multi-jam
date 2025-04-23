@@ -33,6 +33,11 @@ Pour installer la dépendance Python `pybluez` :
 ```bash
 pip install -r requirements.txt
 ```
+or
+```bash
+chmod +x install.sh
+./install.sh
+```
 
 ## Installation
 
