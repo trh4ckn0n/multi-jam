@@ -107,6 +107,9 @@ chmod +x install.sh
 
 ### Lancer l'outil
 
+<img src="https://g.top4top.io/p_3400qsvl50.jpg" alt="logo" width="300"/>
+
+
 Une fois les dépendances installées, vous pouvez lancer l'outil en exécutant le script `jammer.sh` :
 
 ```bash
