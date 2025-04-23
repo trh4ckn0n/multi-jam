@@ -64,6 +64,7 @@ run_fzf_menu() {
     clear
     figlet -f slant "JAM TOOL by TRHACKNON" | lolcat
     echo -e "\n> Mobile Network Jammer by TRHACKNON | Sélectionne ton arme\n" | lolcat
+    echo -e "\nJamTool, repo: https://github.com/trh4ckn0n/multi-jam" | lolcat
 
     choice=$(printf "%s\n" \
       "Wi-Fi Jammer : Détection + déauth" \
