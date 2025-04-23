@@ -61,7 +61,7 @@ run_dialog_menu() {
 run_fzf_menu() {
   while true; do
     clear
-    figlet -f slant "JAM TOOL" | lolcat
+    figlet -f slant "JAM TOOL by TRHACKNON" | lolcat
     echo -e "\n> Mobile Network Jammer by TRHACKNON | Sélectionne ton arme\n" | lolcat
 
     choice=$(printf "%s\n" \
