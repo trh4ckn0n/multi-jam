@@ -22,10 +22,6 @@
   ![Debian Based](https://img.shields.io/badge/Compatible-Debian/Ubuntu-green?logo=debian)
   ![Tested on Kali](https://img.shields.io/badge/Tested_on-Kali_Linux-blue?logo=kalilinux)
 
-  ### ⚖️ License & Style  
-  ![License](https://img.shields.io/badge/License-GPLv3-blue)
-  ![Style Hacker](https://img.shields.io/badge/Style-Hacker_Neon-ff00ff)
-
   <br>
   > <i>“We are hackers. We are legion. We do not forget the tech stack.”</i>
 
@@ -166,7 +162,9 @@ Les fichiers I/Q sont enregistrés automatiquement dans le dossier `captures/`.
 
 Les contributions sont les bienvenues ! Si vous souhaitez ajouter de nouvelles fonctionnalités, corriger des bugs ou améliorer la documentation, n'hésitez pas à ouvrir une issue ou soumettre une pull request.
 
-## License
+## ⚖️ License & Style  
+  ![License](https://img.shields.io/badge/License-GPLv3-blue)
+  ![Style Hacker](https://img.shields.io/badge/Style-Hacker_Neon-ff00ff)
 
 Ce projet est sous la licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
 
