@@ -1,5 +1,62 @@
-# JamTool by TRHACKNON- Mobile Jammer
-![HackRF jam](https://img.shields.io/badge/HackRF-Jam_by_TRHACKNON-purple?logo=hackaday)
+<div align="center">
+
+## 💀 MULTI-JAM — HackRF CLI Toolset by <code>trhacknon</code> ⚡
+
+<img src="https://h.top4top.io/p_3400wd9lq0.jpg" alt="logo" width="300"/>
+
+> 🛰️ Full-spectrum jamming & GSM sniffing suite  
+> 🧠 Reverse | 🧨 Jam | 📡 Sniff | 🎯 Disrupt | ⛓️ Own
+
+[![HackRF Jam](https://img.shields.io/badge/HackRF-Jam_by_TRHACKNON-purple?logo=hackaday)](https://github.com/trhacknon)
+![Hacker Look](https://img.shields.io/badge/We_are-anonymous-ff00ff?logo=eye)
+[![License](https://img.shields.io/badge/License-GPLv3-blue)](LICENSE)
+
+</div>
+
+---
+
+<details>
+  <summary>🕶️ <strong>Underground Tech Stack</strong> | 👤 Powered by <code>trhacknon</code> ⚡</summary>
+
+  <br>
+
+  ### 🛠️ Core Technologies  
+  ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+  ![Bash](https://img.shields.io/badge/Shell-Bash-121011?logo=gnu-bash&logoColor=white)
+  ![GNU Radio](https://img.shields.io/badge/GNU_Radio-SDR-red?logo=gnuradio)
+  ![gr-gsm](https://img.shields.io/badge/gr--gsm-GSM_Analysis-orange)
+  ![HackRF](https://img.shields.io/badge/HackRF-One-6e40c9?logo=hackaday)
+
+  ### 🧨 Offensive Ops  
+  ![HackRF Jam](https://img.shields.io/badge/Jamming%20Enabled-trhacknon-purple?logo=hackaday)
+  ![Anonymous Style](https://img.shields.io/badge/Anonymous-We_are_Legion-black?logo=anonymous)
+  ![HTB Ready](https://img.shields.io/badge/Hack_The_Box-Certified-green?logo=hackthebox)
+  ![Metasploit](https://img.shields.io/badge/Metasploit-Ready-red?logo=metasploit)
+  ![Termux](https://img.shields.io/badge/Termux-Compatible-black?logo=termux)
+  ![CLI Tool](https://img.shields.io/badge/Interface-CLI-lightgrey?logo=gnome-terminal)
+
+  ### ⚙️ Shell & Recon  
+  ![fzf](https://img.shields.io/badge/fzf-integration-yellow?logo=linux)
+  ![BlueZ](https://img.shields.io/badge/Bluetooth-BlueZ-0072c6?logo=bluetooth)
+  ![RfCat](https://img.shields.io/badge/rfcat-ready-red?logo=usb)
+  ![rtl-sdr](https://img.shields.io/badge/RTL--SDR-supported-lightblue?logo=raspberrypi)
+
+  ### 🧪 Tested & Proven  
+  ![Kali](https://img.shields.io/badge/Tested_on-Kali_Linux-blue?logo=kalilinux)
+  ![Debian](https://img.shields.io/badge/Compatible-Debian/Ubuntu-green?logo=debian)
+
+  ### ⚖️ Legal & Style  
+  ![License](https://img.shields.io/badge/License-GPLv3-blue)
+  ![Hacker Look](https://img.shields.io/badge/We_are-anonymous-ff00ff?logo=eye)
+  ![DarkMode](https://img.shields.io/badge/UI-Dark_Mode_Only-black?logo=darkreader)
+
+  <br>
+
+  > 🧬 *“We are Hackers. We Jam. We Signal. We Own. We do it loud.”*
+
+</details>
+
+---
 
 <details>
   <summary>🕶️ <strong>Underground Tech Stack</strong> | 👤 Powered by <code>trhacknon</code> ⚡</summary>
