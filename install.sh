@@ -46,10 +46,13 @@ pipmode=$(gum choose \
 if [[ "$pipmode" == *"--break-system-packages"* ]]; then
   echo -e "\n${green}[+] Installing with --break-system-packages...${reset}"
   pip3 install numpy matplotlib scipy --break-system-packages
-  chmod +x jammer.sh
 else
   echo -e "\n${green}[+] Installing with regular pip3...${reset}"
   pip3 install numpy matplotlib scipy
+fi
+
+# Rendre le script jammer.sh exécutable s'il existe
+if [[ -f "jammer.sh" ]]; then
   chmod +x jammer.sh
 fi
 
@@ -59,4 +62,16 @@ gum style --border double --margin "1" --padding "1 2" --border-foreground 212 \
   "All tools and Python modules are now installed." \
   "You're ready to jam, ${bold}trhacknon-style${reset}!"
 
-echo -e "${blue}Run ./jammer.sh or ./hackrf.py.${reset}\n"
+# Proposition de lancement
+if [[ -f "jammer.sh" ]]; then
+  if gum confirm "Do you want to launch ./jammer.sh now?"; then
+    echo -e "\n${blue}[~] Launching jammer.sh...${reset}"
+    ./jammer.sh
+  else
+    echo -e "${yellow}You can launch it later with: ./jammer.sh${reset}"
+  fi
+else
+  echo -e "${red}[!] jammer.sh not found. Skipping launch.${reset}"
+fi
+
+echo -e "\n${green}[✓] Everything is set. Happy hacking.${reset}\n"
