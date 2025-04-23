@@ -65,6 +65,9 @@ JamTool est un outil multifonction permettant de brouiller diverses technologies
 ## Dépendances
 ![Dependances](https://img.shields.io/badge/Dependances-ff00ff)
 
+<img src="https://e.top4top.io/p_3400i89qa0.jpg" alt="logo" width="300"/>
+
+
 Avant d'exécuter le script, assurez-vous que les dépendances suivantes sont installées sur votre machine :
 
 ### Dépendances du système :
