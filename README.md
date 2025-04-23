@@ -74,6 +74,55 @@ Après avoir choisi l'interface, vous pourrez sélectionner l'une des options su
 
 Vous pouvez quitter le programme à tout moment en sélectionnant l'option "Quitter" dans le menu.
 
+## HackRF Toolkit (hackrf.py)
+# JamTool - Mobile RF Attacks Toolkit
+
+![HackRF Compatible](https://img.shields.io/badge/HackRF-Compatible-blue?logo=hackaday)
+
+Ce script tout-en-un permet d'exploiter la puissance du HackRF pour diverses opérations offensives et d'analyse de signaux radio.
+
+### Fonctionnalités
+
+- **Scan du spectre RF** : capture de signal I/Q, affichage du spectre, détection de pics de fréquence (> -30 dB).
+- **Sniff GSM** : intégration avec `gr-gsm` pour l'écoute des communications GSM (livemon).
+- **Rejouer un signal** : envoi d’un fichier I/Q à une fréquence définie avec `hackrf_transfer`.
+- **Lancer GNURadio Companion** : accès à l'interface graphique pour construire des flux personnalisés.
+
+### Dépendances
+
+Installe-les via :
+
+```bash
+sudo apt install hackrf gnuradio gr-gsm fzf figlet lolcat python3-numpy python3-matplotlib
+```
+
+### Utilisation
+
+Lance simplement le script :
+
+```bash
+python3 hackrf.py
+```
+
+Un menu interactif (via `fzf`) te permet de choisir l'action à effectuer.
+
+### Exemple de capture + spectre :
+
+```bash
+python3 hackrf.py
+# > Choix : Scan spectre + détection active
+# > Fréquence centrale : 868000000
+# > Durée : 5s
+```
+
+Une fenêtre matplotlib s’ouvre avec l’analyse spectrale.
+
+### Dossier de captures
+
+Les fichiers I/Q sont enregistrés automatiquement dans le dossier `captures/`.
+
+---
+
 ## Contribution
 
 Les contributions sont les bienvenues ! Si vous souhaitez ajouter de nouvelles fonctionnalités, corriger des bugs ou améliorer la documentation, n'hésitez pas à ouvrir une issue ou soumettre une pull request.
