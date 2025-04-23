@@ -1,9 +1,13 @@
 <div align="center">
 
-## 💀 MULTI-JAM — HackRF CLI Toolset by <code>trhacknon</code>   𒀱
+## 💀 MULTI-JAM — HackRF CLI Toolset by <code>trhacknon</code>⛥
+🖕( •_• ) 🖕
 
 <img src="https://h.top4top.io/p_3400wd9lq0.jpg" alt="logo" width="300"/>
 
+
+( -_•)▄︻テحكـ━一💥
+     
 > 🛰️ Full-spectrum jamming & GSM sniffing suite  
 > 🧠 Reverse | 🧨 Jam | 📡 Sniff | 🎯 Disrupt | ⛓️ Own
 
