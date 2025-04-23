@@ -45,11 +45,6 @@
   ![Kali](https://img.shields.io/badge/Tested_on-Kali_Linux-blue?logo=kalilinux)
   ![Debian](https://img.shields.io/badge/Compatible-Debian/Ubuntu-green?logo=debian)
 
-  ### ⚖️ Legal & Style  
-  ![License](https://img.shields.io/badge/License-GPLv3-blue)
-  ![Hacker Look](https://img.shields.io/badge/We_are-anonymous-ff00ff?logo=eye)
-  ![DarkMode](https://img.shields.io/badge/UI-Dark_Mode_Only-black?logo=darkreader)
-
   <br>
 
   > 🧬 *“We are Hackers. We Jam. We Signal. We Own. We do it loud.”*
@@ -193,6 +188,9 @@ Les contributions sont les bienvenues ! Si vous souhaitez ajouter de nouvelles f
 
 ## ⚖️ License & Style  
   ![License](https://img.shields.io/badge/License-GPLv3-blue)
+  ![Hacker Look](https://img.shields.io/badge/We_are-anonymous-ff00ff?logo=eye)
+  ![DarkMode](https://img.shields.io/badge/UI-Dark_Mode_Only-black?logo=darkreader)
+
 
 Ce projet est sous la licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
 
