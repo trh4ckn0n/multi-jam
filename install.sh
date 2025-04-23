@@ -57,4 +57,4 @@ gum style --border double --margin "1" --padding "1 2" --border-foreground 212 \
   "All tools and Python modules are now installed." \
   "You're ready to jam, ${bold}trhacknon-style${reset}!"
 
-echo -e "${blue}Run ./multi-jam.py or build your hacking session now.${reset}\n"
+echo -e "${blue}Run ./jammer or ./hackrf.py.${reset}\n"
