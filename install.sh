@@ -46,9 +46,11 @@ pipmode=$(gum choose \
 if [[ "$pipmode" == *"--break-system-packages"* ]]; then
   echo -e "\n${green}[+] Installing with --break-system-packages...${reset}"
   pip3 install numpy matplotlib scipy --break-system-packages
+  chmod +x jammer.sh
 else
   echo -e "\n${green}[+] Installing with regular pip3...${reset}"
   pip3 install numpy matplotlib scipy
+  chmod +x jammer.sh
 fi
 
 # Résumé final
@@ -57,4 +59,4 @@ gum style --border double --margin "1" --padding "1 2" --border-foreground 212 \
   "All tools and Python modules are now installed." \
   "You're ready to jam, ${bold}trhacknon-style${reset}!"
 
-echo -e "${blue}Run ./jammer or ./hackrf.py.${reset}\n"
+echo -e "${blue}Run ./jammer.sh or ./hackrf.py.${reset}\n"
