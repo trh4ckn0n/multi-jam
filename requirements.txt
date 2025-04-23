@@ -6,3 +6,6 @@ rfkill
 rtl-sdr
 gr-gsm
 rfcat
+fzf
+figlet
+lolcat
