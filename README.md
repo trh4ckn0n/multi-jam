@@ -36,8 +36,8 @@ pip install pybluez
 
 1. Clonez le dépôt Git sur votre machine :
    ```bash
-   git clone https://github.com/votre-repository/jamtool.git
-   cd jamtool
+   git clone https://github.com/trh4ckn0n/multi-jam.git
+   cd multi-jam
    ```
 
 3. Installez les dépendances système et Python (comme décrit ci-dessus).
