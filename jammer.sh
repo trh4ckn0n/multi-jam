@@ -1,4 +1,3 @@
-# jammer.sh
 #!/bin/bash
 # Menu hybride : choix entre mode "classique" (dialog) ou "fun" (fzf)
 
@@ -41,18 +40,20 @@ run_dialog_menu() {
   while true; do
     CHOICE=$(dialog --clear --backtitle "JamTool - Mobile Jammer" \
       --title "Sélection de module" \
-      --menu "Choisissez une technologie à brouiller :" 15 50 4 \
+      --menu "Choisissez une technologie à brouiller :" 15 50 5 \
       1 "Wi-Fi Jammer" \
       2 "Bluetooth Jammer" \
       3 "GSM Jammer (SDR)" \
-      4 "Quitter" \
+      4 "Mode Monitor Bluetooth" \
+      5 "Quitter" \
       3>&1 1>&2 2>&3)
 
     case "$CHOICE" in
       1) python3 wifi_jammer.py ;;
       2) python3 bluetooth_jammer.py ;;
       3) python3 gsm_jammer.py ;;
-      4) clear; exit 0 ;;
+      4) python3 bluetooth_scanner.py ;;  # Ajout de l'option pour le mode monitor
+      5) clear; exit 0 ;;
     esac
   done
 }
@@ -67,6 +68,7 @@ run_fzf_menu() {
       "Wi-Fi Jammer : Détection + déauth" \
       "Bluetooth Jammer : Scan + flood" \
       "GSM Jammer : SDR scan + fake attack" \
+      "Mode Monitor Bluetooth : Affichage des périphériques Bluetooth" \
       "Quitter" | \
       fzf --height 40% --reverse --border --color=16 --prompt="JamTool > ")
 
@@ -74,6 +76,7 @@ run_fzf_menu() {
       *Wi-Fi*) python3 wifi_jammer.py ;;
       *Bluetooth*) python3 bluetooth_jammer.py ;;
       *GSM*) python3 gsm_jammer.py ;;
+      *"Mode Monitor Bluetooth"*) python3 bluetooth_scanner.py ;;  # Ajout de l'option pour le mode monitor
       *Quitter*) echo "A bientôt, Hacker!" | lolcat; exit 0 ;;
     esac
 
