@@ -40,6 +40,7 @@ JamTool est un outil multifonction permettant de brouiller diverses technologies
 - **Mode Monitor Bluetooth** : Scanne et affiche les périphériques Bluetooth à proximité.
 
 ## Dépendances
+![Dependances](https://img.shields.io/badge/Dependances-ff00ff)
 
 Avant d'exécuter le script, assurez-vous que les dépendances suivantes sont installées sur votre machine :
 
@@ -164,7 +165,6 @@ Les contributions sont les bienvenues ! Si vous souhaitez ajouter de nouvelles f
 
 ## ⚖️ License & Style  
   ![License](https://img.shields.io/badge/License-GPLv3-blue)
-  ![Style Hacker](https://img.shields.io/badge/Style-Hacker_Neon-ff00ff)
 
 Ce projet est sous la licence MIT. Voir le fichier [LICENSE](LICENSE) pour plus de détails.
 
