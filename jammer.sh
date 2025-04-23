@@ -23,6 +23,7 @@ choose_ui_mode() {
   clear
   figlet "JAM TOOL by TRHACKNON" | lolcat
   echo -e "\nBienvenue dans JamTool, ton brouilleur mobile" | lolcat
+  echo -e "\nJamTool, repo: https://github.com/trh4ckn0n/multi-jam" | lolcat
   echo -e "\nChoisis ton style de menu :\n" | lolcat
 
   echo -e "1. Classique (dialog) : sérieux et stable"
